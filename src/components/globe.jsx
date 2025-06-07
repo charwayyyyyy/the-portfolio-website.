@@ -1,0 +1,83 @@
+import IconCloud from "./ui/icon-cloud";
+
+const slugs = [
+  "typescript",
+  "javascript",
+  "dart",
+  "java",
+  "react",
+  "flutter",
+  "android",
+  "html5",
+  "css3",
+  "nodedotjs",
+  "express",
+  "nextdotjs",
+  "prisma",
+  "amazonaws",
+  "postgresql",
+  "firebase",
+  "nginx",
+  "vercel",
+  "testinglibrary",
+  "jest",
+  "cypress",
+  "docker",
+  "git",
+  "jira",
+  "github",
+  "gitlab",
+  "visualstudiocode",
+  "androidstudio",
+  "sonarqube",
+  "figma",
+  "tailwindcss",
+  "bootstrap",
+  "materialui",
+  "antdesign",
+  "mui",
+  "chakraui",
+  "styledcomponents",
+  "sass",
+  "less",
+  "webpack",
+  "rollup",
+  "vite",
+  "babel",
+  "eslint",
+  "prettier",
+  "graphql",
+  "apollo",
+  "redux",
+  "mobx",
+  "zustand",
+  "reactquery",
+  "mobxstate",
+  "zustandstate",
+  "rxjs",
+  "lodash",
+  "moment",
+  "dayjs",  
+  "axios",  
+  "fetch",
+  "socketio",
+  "websockets",
+
+  "restapi",
+  "graphqlapi",
+  "microservices",
+  "serverless",
+  "cloudfunctions",
+  "kubernetes",
+  "dockercompose",
+];
+
+function IconCloudDemo() {
+  return (
+    <div className="relative flex size-full max-w-lg items-center justify-center overflow-hidden rounded-lg  px-20 pb-20 pt-8 bg-transparent">
+      <IconCloud iconSlugs={slugs} />
+    </div>
+  );
+}
+
+export default IconCloudDemo;
